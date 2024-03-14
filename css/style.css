@@ -39,7 +39,10 @@ header {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
     font-family: "Marhey", sans-serif;
 }
 
@@ -47,4 +50,27 @@ h2 {
     color: var(--vilagoskek);
     text-decoration-style: wavy;
     text-decoration-color: var(--vilagoskek);
+    font-variant: small-caps;
+}
+
+.arnyek {
+    box-shadow: 1px 1px var(--sotetkek) 3px;
+}
+
+table {
+    text-align: center;
+}
+
+#cimsor {
+    color: white !important;
+    background-color: var(--vilagoskek) !important;
+}
+
+th {
+    color: white !important;
+    background-color: var(--sotetkek) !important;
+}
+
+td:nth-child(1) {
+    color: var(--sotetkek) !important;
 }
